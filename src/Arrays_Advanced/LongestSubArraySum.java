@@ -6,6 +6,7 @@ import java.util.HashSet;
 public class LongestSubArraySum {
     static  void hasLongestZeroSum(int[] arr){
         int n = arr.length;
+        //added changes to check git commit
 
         HashMap<Integer,Integer> hm = new HashMap<>();
         int cumSum =arr[0];
